@@ -1,28 +1,27 @@
 <template>
-    <div><h1>{{ Destination.name }}</h1></div>
-    <img :src="Destination.img" alt="">
-    <h2>{{ clicked }}</h2>
-    <button @click="increment">LCICK ME</button>
+    <div>
+        <h1>{{ Company.name }}</h1>
+        <h2>{{ Company.initial }}</h2>
+        <h3>{{ Company.change }}</h3>
+    </div>
+        <a href="/company">Click me</a>
+    <!-- <a :href="link">click me</a> -->
 </template>
 
 <script setup>
 import { ref } from 'vue';
 
 const props = defineProps({
-    Destination: Object,
+    Company: Object,
 });
-// clicker logic
-const clicked = ref(0);
-function increment () {
-    clicked.value++;
-}
 
+/* const link = ref("/");
+function getLink () {
+    link.value = `/${ props.Company.name }`;
+}
+getLink(); */
+
+const currentCompany = props.Company;
 </script>
 
-<style scoped>
-img {
-    width: 250px;
-    height: 300px;
-    object-fit: cover;
-}
-</style>
+<style scoped></style>
