@@ -1,6 +1,6 @@
 <template>
   <div>
-    <DestCard v-for="company in prices"
+    <ItemCard v-for="company in prices"
     :key="company.name"
     :Company="company"
     />
@@ -8,13 +8,12 @@
 </template>
 
 <script setup>
-import DestCard from '@/components/icons/DestCard.vue';
-import { prices } from '@/stores/prices';
+
+import ItemCard from '@/components/icons/ItemCard.vue';
+import { prices } from '@/stores/options';
+
+
+
 </script>
 
-<style scoped>
-
-h1 {
-  color: red
-}
-</style>
+<style scoped></style>
