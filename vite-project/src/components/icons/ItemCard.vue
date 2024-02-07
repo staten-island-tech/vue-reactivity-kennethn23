@@ -1,20 +1,23 @@
 <template>
     <div>
-        <h1>{{ Company.name }}</h1>
-        <h2>{{ Company.initial }}</h2>
-        <h3>{{ Company.change }}</h3>
+        <h1>{{ Option.name }}</h1>
+        <h2>{{ Option.description }}</h2>
+        <h3>${{ Option.price }}</h3>
+        <button @click="addToCart">Add to cart</button>
     </div>
 </template>
 
 <script setup>
 
-import { ref } from 'vue';
-
 const props = defineProps({
-    Company: Object,
+    Option: Object,
 });
 
+const emit = defineEmits(['response']);
 
+function addToCart () {
+    emit('response', props.Option);
+}
 
 </script>
 
