@@ -4,10 +4,23 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+      <h1>Rob a Billionaire!</h1>
+    </div>
   </header>
 
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped>
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 5vh;
+}
+
+</style>
