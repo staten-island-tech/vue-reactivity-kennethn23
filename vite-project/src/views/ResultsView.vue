@@ -1,26 +1,39 @@
 <template>
-    <div>
-        <h1>You've just spent ${{ route.params.totalCost }}!</h1>
+    <div class="title">
+        <h1>You've just spent <span :class="globalVariables.costColor.value">${{ globalVariables.totalCost.value.toLocaleString() }}</span>!</h1>
         <h2>Let's see what you've done...</h2>
+        <RouterLink :to="{ path: '/'}">Go back</RouterLink>
     </div>
     <div class="cardHolder">
-        <ResultsCard v-for="option in options"
-        :key="option.name"
-        :Option="option"
-        />
+        <ResultsCard/>
     </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import { useRoute } from 'vue-router';
-import ResultsCard from '@/components/icons/ResultsCard.vue';
-import { options } from '@/stores/options';
 
-const route = useRoute();
-const totalCost = ref(0);
-totalCost.value = route.params.totalCost;
+import ResultsCard from '@/components/icons/ResultsCard.vue';
+import { globalVariables } from '@/stores/globalVariables';
 
 </script>
 
-<style scoped></style>
+<style scoped>
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notFull {color: rgb(123, 255, 0)}
+.start {color: rgb(251, 255, 0)}
+.middle {color: rgb(255, 208, 0)}
+.closeToFull {color: rgb(255, 102, 0)}
+.full {color: rgb(255, 0, 0)}
+
+</style>

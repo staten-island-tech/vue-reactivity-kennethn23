@@ -10,7 +10,7 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/results/:totalCost',
+      path: '/results',
       name: 'results',
       component: () => import('../views/ResultsView.vue'),
     }

@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div class="wrapper">
-      <h1>Rob a Billionaire!</h1>
+      <h1>Spend a Billion dollars!</h1>
     </div>
   </header>
 

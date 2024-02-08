@@ -1,10 +1,23 @@
-@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+:root {
+  --gradientGray1: #5a5a5c;
+  --gradientGray2: #313238;
+  --gradientGray3: #27282e;
+  --gradientGray4: #17171c;
+}
+
+body {
+    background: linear-gradient(to bottom right, var(--gradientGray1), var(--gradientGray2), var(--gradientGray3), var(--gradientGray4));
+    color: white;
+}
 
 #app {
   max-width: 90%;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  font-family: 'Kanit', sans-serif;
 }
 
 a,
@@ -18,11 +31,5 @@ a,
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
   }
 }
