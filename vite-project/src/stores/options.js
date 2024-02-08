@@ -34,7 +34,7 @@ const options = [{
     unit: "dogs"
 }, {
     img: "https://a.storyblok.com/f/94137/800x600/721540e1f8/mom-with-baby-beside-crib.jpeg/m/",
-    name: "Adopt an orphan",
+    name: "Adopt an orphan child",
     price: 35000,
     description: "since you have no bitches",
     buy: "You're a real hero, you know",
@@ -46,7 +46,7 @@ const options = [{
 }, {
     img: "https://imageio.forbes.com/specials-images/imageserve/634424102b7ff12772de06ab/Businesswoman-shaking-hands-with-coworker-in-hotel/960x0.jpg?height=473&width=711&fit=bounds",
     name: "Start a business",
-    price: 200000,
+    price: 285000,
     description: "so you can stop being a failure",
     buy: "Your cousin Timmy started 10 businesses when he was 2",
     noBuy: "failure",
@@ -66,9 +66,42 @@ const options = [{
     result: "You bought",
     unit: "McDonald's locations"
 }, {
+    img: "https://th.bing.com/th/id/R.59a5c99f01c3b84effac7a0a8d0a4ef1?rik=IxJQuvXJpJsaYA&riu=http%3a%2f%2ftopdreamer.com%2fwp-content%2fuploads%2f2014%2f12%2f2.jpg&ehk=0gc32HEAjkaZm1I%2brPHVdyAlYN3cG7ZilHlhVoXEWw0%3d&risl=&pid=ImgRaw&r=0",
+    name: "Buy a mansion",
+    price: 5845000,
+    description: "so you can stop living in your cardboard box",
+    buy: "do you want a golf course as well?",
+    noBuy: "fool",
+    overBuy: "which mansion are you gonna live in?",
+    purchaseCount: 0,
+    result: "You bought",
+    unit: "mansions"
+}, {
+    img: "https://th.bing.com/th/id/OIP.OFAwDd2kkutgkeQidXX1QAHaFj?rs=1&pid=ImgDetMain",
+    name: "Buy a superyacht",
+    price: 16500000,
+    description: "so you can become the Titanic",
+    buy: "don't hit any icebergs",
+    noBuy: "but it's a good investment",
+    overBuy: "you don't need this many yachts",
+    purchaseCount: 0,
+    result: "You bought",
+    unit: "Super Yachts"
+}, {
+    img: "https://i.pinimg.com/originals/58/09/9b/58099b04d88bb0254b7397287fa874d6.jpg",
+    name: "Buy a submarine",
+    price: 55305000,
+    description: "so you can visit the Titanic",
+    buy: "don't use an Xbox controller",
+    noBuy: "it's safe, don't worry about it",
+    overBuy: "do you have enough Xbox controllers?",
+    purchaseCount: 0,
+    result: "You bought",
+    unit: "submarines"
+}, {
     img: "https://media.cntraveler.com/photos/581b8e750ee23d7b457512e9/master/pass/private-jet-tarmac-GettyImages-523476302.jpg",
     name: "Buy a private jet",
-    price: 75000000,
+    price: 125000000,
     description: "so you never need to touch grass ever again",
     buy: "just take first-class",
     noBuy: "smart choice",
@@ -79,7 +112,7 @@ const options = [{
 }, {
     img: "https://media.cnn.com/api/v1/images/stellar/prod/200513125825-07-gladden-private-island.jpg?q=w_1600,h_900,x_0,y_0,c_fill",
     name: "Buy a private island",
-    price: 250000000,
+    price: 275000000,
     description: "because you're a narcissist",
     buy: "Narcissist",
     noBuy: "You have a billion dollars, why would you not buy a private island?",
