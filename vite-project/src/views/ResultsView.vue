@@ -1,8 +1,7 @@
 <template>
     <div class="title">
-        <h1>You've just spent <span :class="globalVariables.costColor.value">${{ globalVariables.totalCost.value.toLocaleString() }}</span>!</h1>
-        <h2>Let's see what you've done...</h2>
-        <RouterLink :to="{ path: '/'}">Go back</RouterLink>
+        <h2 class="counter">You've just spent <span :class="globalVariables.costColor.value">${{ globalVariables.totalCost.value.toLocaleString() }}</span></h2>
+        <h3><RouterLink :to="{ path: '/'}">Go back</RouterLink></h3>
     </div>
     <div class="cardHolder">
         <ResultsCard/>
@@ -18,10 +17,20 @@ import { globalVariables } from '@/stores/globalVariables';
 
 <style scoped>
 
+.counter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
 .title {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 20vw;
+    margin-bottom: 5vh;
+    border-radius: 3vh;
 }
 
 .cardHolder {

@@ -1,7 +1,7 @@
 <template>
   <div class="totalCheckout">
-    <p><span :class="costColor">${{ totalCost.toLocaleString() }}</span> out of $1,000,000,000</p>
-    <RouterLink :to="{ path: '/results'}">Done</RouterLink>
+    <h2 class="counter"><span :class="costColor">${{ totalCost.toLocaleString() }}</span> out of $1,000,000,000</h2>
+    <h3><RouterLink :to="{ path: '/results'}">Done</RouterLink></h3>
   </div>
 
   <div class="optionList">
@@ -60,10 +60,20 @@ function updateCheckout (item, type) {
 
 <style scoped>
 
+.counter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .totalCheckout {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 20vw;
+  margin-bottom: 5vh;
+  border-radius: 3vh;
 }
 
 .optionList {

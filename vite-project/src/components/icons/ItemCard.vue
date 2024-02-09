@@ -83,8 +83,9 @@ button:hover {
     height: 40vh;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.2);
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
     justify-content: space-evenly;
+    border-radius: 5vh;
 }
 
 </style>

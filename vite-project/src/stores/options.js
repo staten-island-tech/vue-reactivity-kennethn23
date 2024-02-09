@@ -92,7 +92,7 @@ const options = [{
     name: "Buy a submarine",
     price: 55305000,
     description: "so you can visit the Titanic",
-    buy: "don't use an Xbox controller",
+    buy: "you landed next to the Titanic",
     noBuy: "it's safe, don't worry about it",
     overBuy: "do you have enough Xbox controllers?",
     purchaseCount: 0,

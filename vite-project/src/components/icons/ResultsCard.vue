@@ -64,10 +64,16 @@ function nextCard () {
 <style scoped>
 
 button {
-    width: 4vh;
-    height: 4vh;
-    border-radius: 2vh;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 3vh;
     border: 0;
+    transition: all 0.5s;
+    font-size: 2vh;
+}
+
+button:hover {
+    transform: scale(1.2);
 }
 
 .contents {
@@ -84,15 +90,15 @@ img {
 }
 
 #noBuy {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.85);
     color: white;
 }
 #buy {
-    background-color: greenyellow;
-    color: black;;
+    background-color: rgba(0, 255, 0, 0.85);
+    color: black;
 }
 #overBuy {
-    background-color: yellow;
+    background-color: rgb(255, 255, 0, 0.85);
     color: black;
 }
 
@@ -105,6 +111,7 @@ img {
     height: 70vh;
     margin-bottom: 5vh;
     justify-content: space-evenly;
+    border-radius: 5vh;
 }
 
 </style>

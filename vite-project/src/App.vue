@@ -9,10 +9,18 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
 
-  <RouterView />
+  <div class="view">
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>
+
+.view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .wrapper {
   display: flex;
