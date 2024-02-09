@@ -66,7 +66,7 @@ const options = [{
     result: "You bought",
     unit: "McDonald's locations"
 }, {
-    img: "https://th.bing.com/th/id/R.59a5c99f01c3b84effac7a0a8d0a4ef1?rik=IxJQuvXJpJsaYA&riu=http%3a%2f%2ftopdreamer.com%2fwp-content%2fuploads%2f2014%2f12%2f2.jpg&ehk=0gc32HEAjkaZm1I%2brPHVdyAlYN3cG7ZilHlhVoXEWw0%3d&risl=&pid=ImgRaw&r=0",
+    img: "https://ktla.com/wp-content/uploads/sites/4/2023/03/GettyImages-506903162.jpg?w=2000&h=1440&crop=1",
     name: "Buy a mansion",
     price: 5845000,
     description: "so you can stop living in your cardboard box",
@@ -77,7 +77,7 @@ const options = [{
     result: "You bought",
     unit: "mansions"
 }, {
-    img: "https://th.bing.com/th/id/OIP.OFAwDd2kkutgkeQidXX1QAHaFj?rs=1&pid=ImgDetMain",
+    img: "https://cdn.boatinternational.com/files/2022/07/76393b30-0096-11ed-aed3-f71d7c568098-AHPO-hero-Photography-guillaume-plisson.jpg",
     name: "Buy a superyacht",
     price: 16500000,
     description: "so you can become the Titanic",
@@ -88,7 +88,7 @@ const options = [{
     result: "You bought",
     unit: "Super Yachts"
 }, {
-    img: "https://i.pinimg.com/originals/58/09/9b/58099b04d88bb0254b7397287fa874d6.jpg",
+    img: "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/rockcms/2023-07/230706-oceangate-titan-al-1258-6ba25a.jpg",
     name: "Buy a submarine",
     price: 55305000,
     description: "so you can visit the Titanic",

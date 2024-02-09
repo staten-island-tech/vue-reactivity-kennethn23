@@ -21,6 +21,8 @@ const props = defineProps({
 });
 
 const cardArray = ref([...options]);
+cardArray.value.sort((a, b) => b.purchaseCount - a.purchaseCount);
+console.log(cardArray);
 const cardIndex = ref(0);
 
 const flavorText = ref();
