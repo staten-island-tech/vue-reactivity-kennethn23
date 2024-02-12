@@ -34,7 +34,7 @@ function cardLogic () {
     if (cardArray.value[cardIndex.value].purchaseCount == 0) {
         flavorText.value = cardArray.value[cardIndex.value].noBuy;
         cardColor.value = "noBuy";
-    } else if (cardArray.value[cardIndex.value].purchaseCount >= 10) {
+    } else if (cardArray.value[cardIndex.value].purchaseCount >= 30) {
         flavorText.value = cardArray.value[cardIndex.value].overBuy;
         cardColor.value = "overBuy";
     } else {
