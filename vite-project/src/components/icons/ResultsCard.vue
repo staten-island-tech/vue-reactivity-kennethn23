@@ -79,7 +79,7 @@ button:hover {
 .contents {
     display: flex;
     align-items: center;
-    width: 70vw;
+    width: 100vh;
     justify-content: space-evenly;
 }
 
@@ -90,15 +90,15 @@ img {
 }
 
 #noBuy {
-    background-color: rgba(255, 0, 0, 0.85);
+    background-color: #23395B;
     color: white;
 }
 #buy {
-    background-color: rgba(0, 255, 0, 0.85);
+    background-color: #406E8E;
     color: black;
 }
 #overBuy {
-    background-color: rgb(255, 255, 0, 0.85);
+    background-color: #8EA8C3;
     color: black;
 }
 
@@ -106,12 +106,24 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
-    width: 50vw;
-    height: 70vh;
+    width: 80vh;
+    height: 60vh;
     margin-bottom: 5vh;
     justify-content: space-evenly;
     border-radius: 5vh;
+    padding: 2vh;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .contents {
+        width: 70vh;
+    }
+
+    .card {
+        width: 50vh;
+        height: 50vh;
+    }
 }
 
 </style>

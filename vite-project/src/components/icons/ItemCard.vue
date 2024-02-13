@@ -79,10 +79,10 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 28vw;
+    width: 50vh;
     height: 40vh;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(22, 25, 37, 0.6);
     margin-bottom: 2vh;
     justify-content: space-evenly;
     border-radius: 5vh;

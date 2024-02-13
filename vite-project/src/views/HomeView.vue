@@ -70,8 +70,8 @@ function updateCheckout (item, type) {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 20vw;
+  background-color: rgba(22, 25, 37, 0.6);
+  width: 35vh;
   margin-bottom: 5vh;
   border-radius: 3vh;
 }

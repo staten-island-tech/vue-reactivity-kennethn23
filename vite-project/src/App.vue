@@ -25,6 +25,8 @@ import { RouterLink, RouterView } from 'vue-router'
 .wrapper {
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin-bottom: 4vh;
 }
 
 h1 {

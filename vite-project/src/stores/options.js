@@ -15,9 +15,9 @@ const options = [{
     name: "Buy a bottle of expensive wine",
     price: 10000,
     description: "to fuel your crippling alcoholism",
-    buy: "wake up",
-    noBuy: "wake up...",
-    overBuy: "WAKE UP",
+    buy: "alcoholism isn't fun",
+    noBuy: "alcoholism is fun",
+    overBuy: "alcoholism is alcoholism",
     purchaseCount: 0,
     result: "You drank",
     unit: "bottles of wine"
