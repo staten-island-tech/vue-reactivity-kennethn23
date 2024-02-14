@@ -41,9 +41,8 @@ function removeFromCart () {
         return;
     }
 
-    counter.value += -1;
+    counter.value--;
     emit('response', props.Option, "remove");
-    console.log('a')
 }
 
 </script>

@@ -40,7 +40,7 @@ function updateCheckout (item, type) {
   } else if (type == "remove") {
     totalCost.value += -(item.price);
     const finder = ref(options.find((itemJS) => itemJS.name == item.name));
-    finder._rawValue.purchaseCount += -1;
+    finder._rawValue.purchaseCount--;
   }
 
   if (totalCost.value >= 900000000) {
